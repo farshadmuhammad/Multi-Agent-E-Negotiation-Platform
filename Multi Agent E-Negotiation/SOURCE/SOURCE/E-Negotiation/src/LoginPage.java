@@ -1,0 +1,43 @@
+
+
+import javax.swing.JPanel;
+import javax.swing.JLabel;
+import java.awt.Font;
+import javax.swing.JTextField;
+import java.awt.Point;
+import javax.swing.JButton;
+import java.awt.event.ActionListener;
+import java.awt.event.ActionEvent;
+
+public class LoginPage extends JPanel {
+	JTextField loginField;
+    boolean isPressed = false;
+    JButton btnLogin = new JButton("Login");
+	/**
+	 * Create the panel.
+	 */
+	public LoginPage() {
+		setLayout(null);
+		
+		JLabel titleLabel = new JLabel("E-Negotiation System");
+		titleLabel.setBounds(12, 5, 425, 55);
+		titleLabel.setFont(new Font("Tahoma", Font.PLAIN, 45));
+		add(titleLabel);
+		
+		loginField = new JTextField();
+		loginField.setBounds(159, 148, 107, 30);
+		
+		add(loginField);
+		loginField.setColumns(10);
+		
+		JLabel lblUsername = new JLabel("    USERNAME:");
+		lblUsername.setFont(new Font("Tahoma", Font.PLAIN, 14));
+		lblUsername.setBounds(159, 114, 107, 30);
+		add(lblUsername);
+		
+		
+		btnLogin.setBounds(172, 211, 89, 23);
+		add(btnLogin);
+
+	}
+}

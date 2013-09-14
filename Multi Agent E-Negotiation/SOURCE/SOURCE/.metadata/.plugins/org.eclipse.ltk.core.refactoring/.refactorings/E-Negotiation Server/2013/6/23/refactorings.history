@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;ProdNegInst.java&apos; to &apos;E-Negotiation/src/(default package)&apos;&#x0D;&#x0A;- Original project: &apos;E-Negotiation Server&apos;&#x0D;&#x0A;- Destination element: &apos;E-Negotiation/src/(default package)&apos;&#x0D;&#x0A;- Original element: &apos;ProdNegInst.java&apos;" description="Copy compilation unit" destination="=E-Negotiation/src&lt;" element1="/src&lt;{ProdNegInst.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1370228203031" units="1" version="1.0"/>
+</session>

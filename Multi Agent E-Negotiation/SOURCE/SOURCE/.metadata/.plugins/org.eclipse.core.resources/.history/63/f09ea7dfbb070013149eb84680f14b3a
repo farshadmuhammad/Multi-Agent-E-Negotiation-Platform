@@ -1,0 +1,14 @@
+
+
+
+public class Main {
+
+	 public static void main (String[] args) {
+		//MainPage container = new MainPage();
+		  
+		Server newServer = new Server();
+		 //System.out.println(Integer.parseInt(" "));
+		 
+		  
+	 }
+}
